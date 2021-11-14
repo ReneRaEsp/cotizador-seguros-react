@@ -2,6 +2,9 @@ html {
   box-sizing: border-box;
 }
 body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background: #e96443; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
